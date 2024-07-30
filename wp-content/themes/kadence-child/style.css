@@ -12,3 +12,216 @@ Updated: 2024-07-07 10:22:03
 */
 
 
+.wpcf7-textarea {
+    width: 100%;
+    position: relative !important;
+    z-index: 10 !important;
+
+}
+
+.wpcf7-email {
+    width: 100%;
+}
+
+.wpcf7-text {
+    width: 100;
+
+}
+
+.wpcf7-submit {
+    width: 100%;
+    margin-top: 15%
+}
+
+#ff_3_names_1_last_name_ {
+    height: 90px;
+}
+
+#ff_3_names_first_name_ {
+    height: 90px;
+}
+
+#ff_3_input_text {
+    height: 90px;
+}
+
+#ff_5_2_input_text {
+    height: 90px;
+}
+
+#ff_3_email {
+    height: 90px;
+}
+
+#ff_5_2_input_text_2 {
+    height: 90px;
+}
+
+#ff_5_2_input_text_1 {
+    height: 90px;
+}
+
+#wpcf7-f411-p81-o1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.wpcf7-number {
+    margin-left: 45%;
+    width: 19%;
+
+
+}
+
+.img1 {
+    position: absolute !important;
+    bottom: 21%;
+    right: 55%;
+
+}
+
+
+
+.img2 {
+    position: relative !important;
+    right: 17%;
+    bottom: 35%;
+
+
+}
+
+.img3 {
+    position: relative !important;
+    left: 17%;
+    bottom: 65%;
+
+
+
+}
+
+
+#wpcf7-f714-p2-o5 {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form-commande {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.form-commande h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 30px;
+    font-family: 'Syne', sans-serif;
+}
+
+.form-commande div {
+    color: white;
+}
+
+.form-commande input[type="text"],
+.form-commande input[type="email"] {
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+#bouton-commande {
+    background-color: #E0B9B4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 30%;
+    margin-left: 35%;
+}
+
+#bouton-commande:hover {
+    color: #ffffff;
+    background-color: #C02E44;
+    border: none;
+}
+
+.bordure {
+    border-right: solid 1px white;
+    padding-right: 90px;
+}
+
+@media (max-width: 1024px) {
+
+
+
+
+
+
+
+    .form-commande {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .bordure {
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+
+
+
+
+@media (max-width: 767.991px) {
+
+
+
+    .img2 {
+        position: relative !important;
+        right: 11%;
+        bottom: 35%;
+
+
+    }
+
+    .img3 {
+        position: relative !important;
+        left: 10%;
+        bottom: 62%;
+
+
+
+    }
+
+
+}
+
+
+
+@media (max-width: 440px) {
+
+    #bouton-commande {
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    .form-commande input[type="text"],
+    .form-commande input[type="email"] {
+
+        width: 90%;
+
+    }
+
+
+}
